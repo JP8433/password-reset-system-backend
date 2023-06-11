@@ -9,7 +9,7 @@ const app = express();
 /** middlewares */
 app.use(express.json());
 app.use(cors({
-  origin: 'passwordresetflowbyjp.netlify.app', // Replace with your frontend URL
+  origin: 'https://passwordresetflowbyjp.netlify.app/', // Replace with your frontend URL
 }));
 app.use(morgan('tiny'));
 app.disable('x-powered-by'); // less hackers know about our stack
